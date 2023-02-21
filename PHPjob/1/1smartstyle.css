@@ -1,75 +1,63 @@
-@media(min-width: 480px)
-＠media screen and(max-width: 479px) {
-    .body {
-        max-width: 100%;
-        height: auto;
+@media screen and(max-width:479px) {
+    .container {
+        width: 200px;
+        height: fit-content;
+        position: initial;
     }
     .header {
+        height: 200px;
         width: 200px;
-        background-color: #141f40;
+        display: block;
+        justify-content: center;
     }
     .header-content {
         height: 60px;
         width: 160px;
-        background-color: white;
-        display: flex;
+        display: block;
         justify-content: space-evenly;
-        align-items: center;
-        margin-right: 70px;
+        justify-content: center;
     }
     .box1 {
         height: 40px;
         width: 40px;
-        background-color: #a9004b;
-        /* margin: auto; */
     }
-    /* .main {
-        display: flex;
-    } */
+    .main {
+        display: block;
+    }
     .left {
-        height: 250px;
-        width: 150px;
-        background-color: #80bfa8;
+        height: 150px;
+        width: 200px;
     }
     .right {
-        height: 250px;
-        width: 250px;
-        background-color: #8c2727;
-        position: relative;
+        width: 200px;
     }
     .right-content {
-        display: ;
         height: 170px;
         width: 150px;
-        margin: left 40px;
+        margin: left 30px;
+        margin: top 20px;
         position:absolute;
-        top: 20px;
-        left: 30px;
-        justify-content: space-between;
     }
     .box2 {
         height: 50px;
         width: 150px;
-        background-color: white;
         position: relative;
     }
     .box2-2 {
         height: 50px;
         width: 150px;
-        background-color: white;
         position: relative;
         margin-top: 10px;
     }
     .box2-inside {
         height: 40px;
         width: 140px;
-        background-color: #ff863f;
         position: absolute;
         top: 5px;
         left: 5px;
     }
     .footer {
+        height: 150px;
         width: 200px;
-        background-color: #d98d30;
     }
 }
