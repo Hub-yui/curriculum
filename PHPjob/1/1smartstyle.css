@@ -1,4 +1,4 @@
-@media screen and(max-width:479px) {
+@media screen and (max-width:479px) {
     .container {
         width: 200px;
         height: fit-content;
@@ -7,54 +7,39 @@
     .header {
         height: 200px;
         width: 200px;
-        display: block;
         justify-content: center;
     }
     .header-content {
-        height: 60px;
-        width: 160px;
+        height: 160px;
+        width: 60px;
         display: block;
-        justify-content: space-evenly;
-        justify-content: center;
     }
     .box1 {
-        height: 40px;
-        width: 40px;
+        margin: 10px;
     }
     .main {
         display: block;
     }
     .left {
-        height: 150px;
+        height: 100px;
         width: 200px;
     }
     .right {
         width: 200px;
+        height: 200px;
     }
     .right-content {
-        height: 170px;
-        width: 150px;
-        margin: left 30px;
-        margin: top 20px;
-        position:absolute;
+        top: 20px;
+        left: 30px;
     }
     .box2 {
-        height: 50px;
-        width: 150px;
-        position: relative;
+
     }
     .box2-2 {
-        height: 50px;
-        width: 150px;
-        position: relative;
-        margin-top: 10px;
+
     }
     .box2-inside {
-        height: 40px;
-        width: 140px;
-        position: absolute;
-        top: 5px;
-        left: 5px;
+
     }
     .footer {
         height: 150px;
