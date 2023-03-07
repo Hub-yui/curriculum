@@ -13,6 +13,7 @@
         height: 160px;
         width: 60px;
         display: block;
+        margin: 0;
     }
     .box1 {
         margin: 10px;
